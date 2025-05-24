@@ -9,7 +9,7 @@ import Sentence from "@/components/Sentence.vue";
         <Time />
       </div>
       <div class="sentence-container">
-        <Sentence provider="hitokoto" />
+        <Sentence provider="afeather" />
       </div>
     </div>
 </template>
