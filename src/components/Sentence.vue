@@ -30,7 +30,7 @@ const fetchSentence = async () => {
 
   try {
     if (props.provider === 'afeather') {
-      const response = await fetch('https://api.afeather.org/v0/sentence/get')
+      const response = await fetch('https://api.afeather.cn/v0/sentence/get')
       responseData.value = await response.json()
       sentence.value = responseData.value.sentence
       const source = responseData.value.source ? `「${responseData.value.source}」` : ''
